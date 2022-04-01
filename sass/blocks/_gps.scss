@@ -1,0 +1,16 @@
+.gps {
+    padding-bottom: 60px;
+    &__title {
+        width: 450px;
+    }
+    &__map {
+        padding: 0 5px;
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        iframe {
+            border: 2px solid red;
+        }
+    }
+}

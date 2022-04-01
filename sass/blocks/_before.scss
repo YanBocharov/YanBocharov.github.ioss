@@ -1,0 +1,30 @@
+.before {
+    padding-bottom: 50px;
+    &__slider {
+        margin-bottom: 100px;
+    }
+    &__slide {
+        width: 550px;
+        height: 600px;
+        img {
+            padding-top: 50px;
+            width: 52%;
+        }
+    }
+    &__block {
+        position: relative;
+    }
+    &__bc {
+        position: absolute;
+        right: 65px;
+        bottom: 50px;
+    }
+    &__sc {
+        position: absolute;
+        right: 10px;
+        bottom: 10px;
+    }
+    &__title {
+        width: 320px;
+    }
+}

@@ -1,0 +1,26 @@
+.job {
+    padding-bottom: 50px;
+    &__bc {
+        position: absolute;
+        left: 20px;
+    }
+    &__sc {
+        position: absolute;
+        left: 155px;
+        margin-top: 100px;
+    }
+    &__svidetelstvo {
+        img {
+            width: 70%;
+            display: flex;
+            margin: 0 auto;
+            margin-top: 20px;
+        }
+    }
+    &__text {
+        padding: 0 20px;
+        max-width: 700px;
+        margin: 0 auto;
+        margin-top: 40px;
+    }
+}

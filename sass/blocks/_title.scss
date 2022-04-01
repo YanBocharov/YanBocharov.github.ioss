@@ -1,0 +1,29 @@
+.title {
+    // max-width: 200px;
+    font-size: 45px;
+    position: relative;
+    text-align: center;
+    margin: 0 auto;
+    &::before {
+        content: '';
+        position: absolute;
+        left: 0;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 14px;
+        height: 14px;
+        background: #000;
+        border-radius: 100%;
+    }
+    &::after {
+        content: '';
+        position: absolute;
+        right: 0px;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 14px;
+        height: 14px;
+        background: #000;
+        border-radius: 100%;
+    }
+}

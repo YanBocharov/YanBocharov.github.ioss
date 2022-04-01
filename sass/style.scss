@@ -1,0 +1,64 @@
+* {
+   font-family: 'Balsamiq Sans', cursive;
+   font-family: 'Roboto Mono', monospace;
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   border: 0;
+}
+
+.container {
+   position: relative;
+   max-width: 950px;
+   margin: 0 auto;
+}
+
+.line {
+   margin-top: 35px;
+   width: 100%;
+   border: 2px solid #000;
+}
+#lightboxOverlay {
+   width: 100%;
+}
+.lb-nav a.lb-next {
+   opacity: 1;
+}
+.lb-nav a.lb-prev {
+   opacity: 1;
+}
+.lb-nav {
+   top: 80%;
+   height: 20%;
+}
+.lb-prev, .lb-next {
+   height: 50px;
+}
+@media (max-width: 450px) {
+   .line {
+      &_mt130 {
+         margin-top: 130px;
+      }
+   }
+}
+
+@import 'blocks/header';
+@import 'blocks/glav';
+@import 'blocks/job';
+@import 'blocks/slider';
+@import 'blocks/price';
+@import 'blocks/title';
+@import 'blocks/sugar';
+@import 'blocks/before';
+@import 'blocks/certificate';
+@import 'blocks/gps';
+
+@import 'media/glavMedia';
+@import 'media/headerMedia';
+@import 'media/sliderMedia';
+@import 'media/jobMedia';
+@import 'media/priceMedia';
+@import 'media/sugarMedia';
+@import 'media/beforeMedia';
+@import 'media/certificateMedia';
+@import 'media/gpsMedia';

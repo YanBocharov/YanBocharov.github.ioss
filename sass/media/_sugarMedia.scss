@@ -1,0 +1,43 @@
+@media (max-width: 810px) {
+    .sugar {
+        &__block {
+            font-size: 20px;
+        }
+        &__title {
+            font-size: 35px;
+        }
+    }
+}
+@media (max-width: 626px) {
+    .sugar {
+        &__title {
+            max-width: 470px;
+        }
+        &__wrapper {
+            grid-template-columns: repeat(1,300px);
+            grid-template-rows: repeat(4, 155px);
+        }
+    }
+}
+@media (max-width: 510px) {
+    .sugar {
+        &__title {
+            font-size: 30px;
+            max-width: 400px;
+        }
+    }
+}
+@media (max-width: 440px) {
+    .sugar {
+        &__title {
+            font-size: 30px;
+            max-width: 400px;
+            &::before {
+                display: none;
+            }
+            &::after {
+                display: none;
+            }
+        }
+    }
+}

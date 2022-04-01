@@ -1,0 +1,24 @@
+@media (max-width: 750px) {
+    .job {
+        &__bc {
+            display: none;
+        }
+        &__sc {
+            display: none;
+        }
+    }
+}
+@media (max-width: 600px) {
+    .job {
+        &__svidetelstvo {
+            img {
+                width: 100%;
+            }
+        }
+        &__slider {
+            div {
+                font-size: 23px;
+            }
+        }
+    }
+}
